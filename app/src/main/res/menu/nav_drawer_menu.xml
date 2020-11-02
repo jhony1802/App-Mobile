@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_cardapio"
+            android:icon="@drawable/ic_cardapio"
+            android:title="Cardápio" />
+        <item
+            android:id="@+id/nav_refAgend"
+            android:icon="@drawable/ic_ref_agend"
+            android:title="Refeições agendadas" />
+        <item
+            android:id="@+id/nav_notifics"
+            android:icon="@drawable/ic_notifics"
+            android:title="Notificações" />
+        <item
+            android:id="@+id/nav_configs"
+            android:icon="@drawable/ic_configs"
+            android:title="Configurações" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Perfil">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_perfil"
+                    android:icon="@drawable/ic_perfil"
+                    android:title="Perfil" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout" />
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <item android:title="Comunicação">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_help"
+                android:title="Central de ajuda"
+                android:icon="@drawable/ic_help"/>
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Avalie-nos"
+                android:icon="@drawable/ic_rate"/>
+
+        </menu>
+
+    </item>
+
+</menu>
